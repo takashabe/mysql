@@ -1,4 +1,4 @@
-name		          'mysql'
+name              'mysql'
 maintainer        'Opscode, Inc.'
 maintainer_email  'cookbooks@opscode.com'
 license           'Apache 2.0'
@@ -26,6 +26,7 @@ supports 'windows'
 
 depends 'openssl',         '~> 1.1'
 depends 'build-essential', '~> 1.4'
+depends 'yum-remi'
 
 # wat
 suggests 'homebrew'
